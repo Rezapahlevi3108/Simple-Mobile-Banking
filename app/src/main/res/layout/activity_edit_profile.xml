@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:orientation="horizontal"
+        android:padding="13dp"
+        android:id="@+id/ly_top"
+        android:elevation="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:id="@+id/btn_back"
+            android:tint="@color/white"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppinssemibold"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@color/background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Username"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/poppinsregular"
+                android:enabled="false"
+                android:id="@+id/editUsername"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Nama"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/poppinsregular"
+                android:id="@+id/editName"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/poppinsregular"
+                android:id="@+id/editEmail"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinssemibold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Password"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/poppinsregular"
+                android:id="@+id/editPassword"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Simpan"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinsbold"
+                android:id="@+id/btn_save"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

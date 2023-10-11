@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar2"
+        android:layout_below="@id/img_1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img_2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:text="Kelola Keuangan Anda dengan Aman"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:text="Nikmati kenyamanan dan keamanan aplikasi mobile banking kami. Akses rekening Anda, lakukan transaksi, dan tetap terinformasi tentang keuangan Anda kapan saja, di mana saja."
+        android:padding="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:id="@+id/txt_2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_2"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:layout_marginTop="25dp"
+        android:text="Login"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/M_btn_login"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/M_btn_login"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:layout_marginTop="10dp"
+        android:text="Register"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/M_btn_register"
+        />
+
+</RelativeLayout>

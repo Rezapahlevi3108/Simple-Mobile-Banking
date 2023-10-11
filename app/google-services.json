@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1064864408853",
+    "project_id": "simple-mobile-banking-9751c",
+    "storage_bucket": "simple-mobile-banking-9751c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064864408853:android:41960f67883391dcf9b51c",
+        "android_client_info": {
+          "package_name": "com.example.simplemobilebanking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5HfgMPrxg2xWUKTOCdZF1DZsTWyJhNf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
