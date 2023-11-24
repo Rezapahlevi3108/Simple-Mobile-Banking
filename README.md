@@ -2,6 +2,16 @@
 
 <p>Apps File : https://drive.google.com/file/d/1k8-epxTwqMc6J8vRPrTO4QEGwwm2EAPk/view?usp=sharing</p>
 
+## Tech
+- Java
+- Firebase
+
+## Features
+- Register
+- Login
+- Get Balance
+- Update Profile
+
 <h2>Main Page</h2>
 
 <img src="https://github.com/Rezapahlevi3108/Simple-Mobile-Banking/assets/111274882/3f9ef72c-03ec-482c-a041-d53fb21cfc1d" width="25%">
